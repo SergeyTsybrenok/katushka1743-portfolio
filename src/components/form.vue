@@ -169,4 +169,12 @@ watch(usersLocalStorage, (newValue) => {
   width: 30rem;
   padding-top: 1rem;
 }
+
+input:focus{
+  box-shadow: 0px 0px 100px var(--colorPink);
+}
+
+textarea:focus{
+  box-shadow: 0px 0px 100px var(--colorPink);
+}
 </style>
