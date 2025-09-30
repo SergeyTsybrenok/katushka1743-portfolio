@@ -36,10 +36,10 @@ import formVue from './form.vue';
     <div class="section skills">
       <h2 class="Pink">Что я использую</h2>
       <div class="skillsImges">
-        <img class="iconSkills" src="../../img/file_14969887.png" alt="iconHTML">
-        <img class="iconSkills" src="../../img/file_2425406.png" alt="iconCSS">
-        <img class="iconSkills" src="../../img/brands_1183724.png" alt="iconVueJS">
-        <img class="iconSkills" src="../../img/figma_5968704.png" alt="iconFigma">
+        <img class="iconSkills" src="../../img/file_14969887.webp" alt="iconHTML">
+        <img class="iconSkills" src="../../img/file_2425406.webp" alt="iconCSS">
+        <img class="iconSkills" src="../../img/brands_1183724.webp" alt="iconVueJS">
+        <img class="iconSkills" src="../../img/figma_5968704.webp" alt="iconFigma">
       </div>
       <RouterLink :to="{ name: 'skillsPage' }"><button class="buttonPink">Подробнее</button></RouterLink>
     </div>
@@ -48,18 +48,18 @@ import formVue from './form.vue';
       <h2 class="Turquoise">Некоторые работы</h2>
       <div class="casesDiv">
         <figure>
-          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153704.png" alt="exampleCase">
+          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153704.webp" alt="exampleCase">
           <figcaption><a href="https://katushka1743.github.io/FitProShop/" class="aTurquoise"
               target="_blank">Многостраничный интернет-магазин спортивной одежды. Учебная работа</a></figcaption>
         </figure>
         <figure>
-          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153222.png" alt="exampleCase">
+          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153222.webp" alt="exampleCase">
           <figcaption><a
               href="https://www.figma.com/design/J7KHnN33bxhH5nNkyGJ0uv/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D1%81%D0%B0%D0%B9%D1%82-%D0%B2%D0%B8%D0%B7%D0%B8%D1%82%D0%BA%D0%B0?node-id=0-1&t=S9FmOErlsSQBjHcJ-1"
               class="aTurquoise" target="_blank">Макет сайта-портфолио для дизайнера</a></figcaption>
         </figure>
         <figure>
-          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153408.png" alt="exampleCase">
+          <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153408.webp" alt="exampleCase">
           <figcaption><a
               href="https://www.figma.com/design/JFZIcP6KBTBY8N9pc0MMBK/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80-%D0%BA%D0%B8%D0%BD%D0%BE%D0%B0%D1%84%D0%B8%D1%88%D0%B0?node-id=0-1&t=LJkLKh7sb68tk7Rj-1"
               class="aTurquoise" target="_blank">Макет постера-афиши для кинотеатра</a></figcaption>
@@ -196,7 +196,7 @@ figure {
   width: 23rem;
 }
 
-@media screen and (576 <=width <=1200px) {
+@media screen and (582px <=width <=1200px) {
   .hero {
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@ figure {
   }
 }
 
-@media screen and (width <=576px) {
+@media screen and (width <=582px) {
   .contentPage {
     padding-inline: 0.5rem;
     padding-top: 1rem;

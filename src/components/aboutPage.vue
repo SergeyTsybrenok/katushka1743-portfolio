@@ -10,7 +10,7 @@
     <div class="elements">
       <div class="element One">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Turquoise">Мой путь</div>
         </div>
         <p class="textAbout">
@@ -25,7 +25,7 @@
       </div>
       <div class="element Two">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Turquoise">Навыки и подход</div>
         </div>
         <p class="textAbout">
@@ -39,7 +39,7 @@
       </div>
       <div class="element Three">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Turquoise">Немного обо мне</div>
         </div>
         <p class="textAbout">
@@ -55,7 +55,7 @@
       </div>
       <div class="element Four">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Pink">Мой взгляд на работу</div>
         </div>
         <p class="textAbout">
@@ -71,7 +71,7 @@
       </div>
       <div class="element Five">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Pink">Как я учусь и расту</div>
         </div>
         <p class="textAbout">
@@ -157,7 +157,7 @@ p {
   justify-content: center;
 }
 
-@media screen and (width <=576px) {
+@media screen and (width <=582px) {
 
   .contentPage {
     padding-inline: 1rem;

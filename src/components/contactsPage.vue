@@ -14,21 +14,21 @@ import formVue from './form.vue';
 
       <div class="socials">
         <div class="social">
-          <img src="../../img/vk_733639.png" class="iconSkills" alt="iconImg">
+          <img src="../../img/vk_733639.webp" class="iconSkills" alt="iconImg">
           <a class="aPink" href="https://vk.com/katushka1743group" target="_blank">https://vk.com/katushka1743group</a>
         </div>
         <div class="social">
-          <img src="../../img/github_1051377.png" class="iconSkills" alt="iconImg">
+          <img src="../../img/github_1051377.webp" class="iconSkills" alt="iconImg">
           <a class="aTurquoise" href="https://github.com/katushka1743"
             target="_blank">https://github.com/katushka1743</a>
         </div>
         <div class="social">
-          <img src="../../img/social_14083679.png" class="iconSkills" alt="iconImg">
+          <img src="../../img/social_14083679.webp" class="iconSkills" alt="iconImg">
           <a class="aPink" href="https://www.behance.net/katushka1743"
             target="_blank">https://www.behance.net/katushka1743</a>
         </div>
         <div class="social">
-          <img src="../../img/mention_8317498.png" class="iconSkills" alt="iconImg">
+          <img src="../../img/mention_8317498.webp" class="iconSkills" alt="iconImg">
           <a href="mailto:katushka1743@yandex.ru" class="aTurquoise">katushka1743@yandex.ru</a>
         </div>
       </div>

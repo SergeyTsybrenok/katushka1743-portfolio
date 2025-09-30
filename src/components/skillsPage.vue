@@ -10,7 +10,7 @@
     <div class="elements" translate="no">
       <div class="element One">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Turquoise">Языки и технологии</div>
         </div>
         <p class="textAbout">
@@ -32,7 +32,7 @@
       </div>
       <div class="element Two">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Pink">Фреймворки и библиотеки</div>
         </div>
         <p class="textAbout">
@@ -45,7 +45,7 @@
       </div>
       <div class="element Three">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Pink">Софт скиллы</div>
         </div>
         <p class="textAbout">
@@ -62,7 +62,7 @@
       </div>
       <div class="element Four">
         <div class="titleImg">
-          <img class="starImg" src="../../img/star_15321456.png" alt="starPoint">
+          <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
           <div class="title Turquoise">Инструменты разработки</div>
         </div>
         <p class="textAbout">
@@ -134,7 +134,7 @@
   font-size: 0.9rem;
 }
 
-@media screen and (width <=576px) {
+@media screen and (width <=582px) {
 
   .contentPage {
     padding-inline: 1rem;

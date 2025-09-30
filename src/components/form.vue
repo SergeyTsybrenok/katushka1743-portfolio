@@ -107,8 +107,8 @@ watch(usersLocalStorage, (newValue) => {
     <h2 class="Pink">Связаться со мной</h2>
     <div class="inputs">
       <div class="inputPoint">
-        <label for="name" class="Pink">Фамилия Имя(обязательное поле)</label>
-        <input type="text" id="name" placeholder="Иванов Иван" v-model="local.name"
+        <label for="name" class="Pink">Фамилия Имя Отчество(обязательное поле)</label>
+        <input type="text" id="name" placeholder="Иванов Иван Иванович" v-model="local.name"
           title="С заглавных букв, через пробел">
         <div class="error" v-if="local.nameError">Ошибка: {{ local.nameErrorText }}</div>
       </div>
