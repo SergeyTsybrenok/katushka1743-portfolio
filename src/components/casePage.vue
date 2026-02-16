@@ -9,6 +9,30 @@ import formVue from './form.vue';
     <h2 class="Pink">Мои работы</h2>
     <div class="titleImg">
       <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
+      <div class="title Turquoise">Сайты</div>
+    </div>
+
+    <div class="casesDiv">
+      <figure class="item7">
+        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153704.webp" alt="exampleCase">
+        <figcaption><a href="https://katushka1743.github.io/FitProShop/" class="aTurquoise"
+            target="_blank">Многостраничный интернет-магазин спортивной одежды. Учебная работа</a></figcaption>
+      </figure>
+      <figure class="item8">
+        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 210636.webp" alt="exampleCase">
+        <figcaption><a href="https://katushka1743.github.io/The-Sims-4/" class="aTurquoise"
+            target="_blank">Многостраничный сайт по игре The Sims 4. Учебная работа</a></figcaption>
+      </figure>
+      <figure class="item9">
+        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 224135.webp" alt="exampleCase">
+        <figcaption><a href="https://katushka1743.github.io/FromBoard-Delivery/" class="aTurquoise"
+            target="_blank">Лендинг сайта по доставкам. Учебная работа на экран 1920 пикселей</a></figcaption>
+      </figure>
+    </div>
+
+
+    <div class="titleImg">
+      <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
       <div class="title Turquoise">Макеты</div>
     </div>
     <div class="casesDiv">
@@ -52,28 +76,7 @@ import formVue from './form.vue';
       </figure>
     </div>
 
-    <div class="titleImg">
-      <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
-      <div class="title Turquoise">Сайты</div>
-    </div>
 
-    <div class="casesDiv">
-      <figure class="item7">
-        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 153704.webp" alt="exampleCase">
-        <figcaption><a href="https://katushka1743.github.io/FitProShop/" class="aTurquoise"
-            target="_blank">Многостраничный интернет-магазин спортивной одежды. Учебная работа</a></figcaption>
-      </figure>
-      <figure class="item8">
-        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 210636.webp" alt="exampleCase">
-        <figcaption><a href="https://katushka1743.github.io/The-Sims-4/" class="aTurquoise"
-            target="_blank">Многостраничный сайт по игре The Sims 4. Учебная работа</a></figcaption>
-      </figure>
-      <figure class="item9">
-        <img class="imgCases" src="../../img/Снимок экрана 2025-09-05 224135.webp" alt="exampleCase">
-        <figcaption><a href="https://katushka1743.github.io/FromBoard-Delivery/" class="aTurquoise"
-            target="_blank">Лендинг сайта по доставкам. Учебная работа на экран 1920 пикселей</a></figcaption>
-      </figure>
-    </div>
 
     <formVue></formVue>
 

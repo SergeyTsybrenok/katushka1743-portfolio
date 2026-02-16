@@ -40,6 +40,7 @@ import formVue from './form.vue';
         <img class="iconSkills" src="../../img/file_2425406.webp" alt="iconCSS">
         <img class="iconSkills" src="../../img/brands_1183724.webp" alt="iconVueJS">
         <img class="iconSkills" src="../../img/figma_5968704.webp" alt="iconFigma">
+        <img class="iconSkills" src="../../img/django.webp" alt="iconDjango">
       </div>
       <RouterLink :to="{ name: 'skillsPage' }"><button class="buttonPink">Подробнее</button></RouterLink>
     </div>
@@ -158,7 +159,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10rem;
+  gap: 7rem;
 }
 
 .iconSkills {
