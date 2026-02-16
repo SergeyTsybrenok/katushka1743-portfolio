@@ -27,7 +27,7 @@ function checkForm() {
     local.okForm = false;
 
     local.nameErrorText = 'Вы не заполнили поле';
-  } else if (!(/^[A-ZА-ЯЁ][a-zа-яё]+ [A-ZА-ЯЁ][a-zа-яё]+$/).test(local.name.trim())) {
+  } else if (!(/^[A-ZА-ЯЁ][a-zа-яё]+\s[A-ZА-ЯЁ][a-zа-яё]+\s[A-ZА-ЯЁ][a-zа-яё]+$/).test(local.name.trim())) {
     local.nameError = true;
     local.okForm = false;
 
@@ -131,7 +131,7 @@ watch(usersLocalStorage, (newValue) => {
       </div>
     </div>
     <br>
-    <div v-if="local.okForm" class="Pink">Форма отправлена</div>
+    <div v-if="local.okForm" class="Turquoise">Форма заполнена, но пока она никуда ничего не отправляет</div>
     <p class="info Pink">Отправляя свои данные через форму, вы соглашаетесь с&nbsp;их обработкой исключительно для&nbsp;связи со&nbsp;мной. Я&nbsp;не&nbsp;передаю информацию третьим лицам и&nbsp;не&nbsp;использую её&nbsp;в&nbsp;рекламных целях.</p>
     <button class="buttonPink" @click="checkForm()">Отправить форму</button>
 
