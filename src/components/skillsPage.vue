@@ -57,7 +57,7 @@
         <div class="element Four">
       <div class="titleImg">
         <img class="starImg" src="../../img/star_15321456.webp" alt="starPoint">
-        <div class="title Pink">Инструменты и&nbsp;практика разработки</div>
+        <div class="title Pink">Практика разработки</div>
       </div>
       <ul class="textAbout">
         <li>Git & GitHub — коммиты, ветки, pull requests, деплой проектов</li>
