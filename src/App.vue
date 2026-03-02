@@ -42,7 +42,7 @@ function upBtn() {
 
     <footer class="footer ">
       <div class="copyright footerElem" translate="no">
-        © 2025 katushka1743
+        © 2026 katushka1743
       </div>
       <div class="social footerElem ">
         <a target="_blank" translate="no" href="https://vk.com/katushka1743group">Vkontakte &#8599;</a>
